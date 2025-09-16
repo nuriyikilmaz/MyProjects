@@ -1,14 +1,15 @@
-Görev 1: Web Sayfalarında Header ve Navigasyon Linkleri
+Görev 2: Ergineer Mangal Dinamik Gallery Resimleri
 0%
-Yeni bir haftaya başlarken haftalık ekip toplantısında yöneticin seni bir takım arkadaşın ile buddy yaptı. İkiniz beraber bazı dinamik web sitesi görevlerini tamamlayacaksınız.
+Buddy'in ile son görevde güzel bir uyum yakaladınız ve görevi tam yaptınız. Yöneticin, JS tarafındaki yaptığın işten çok memnun kaldı. Bu yüzden sana ekstra bir görev verdi.
 
-Aranızdaki görev bölümünü de şu şekilde oluşturmaya karar verdiniz:
+Daha önce statik yapılan bir sitenin imajlarının dinamik olarak eklenmesini isteniyor. index.js dosyasında resimlerin linklerini, alt metinlerini içeren bir array var! Senden bu array üzerinde bir döngü yaparak .gallery-content class'ına sahip div'in içindeki img'ların:
 
-Arkadaşın semantik HTML'i oluşturacak ve gereken stil kuralları için css kodlarını yazacak.
-Sen de JS tarafını kullanarak sayfadaki metinleri, linkleri ekleyeceksin.
-İlk göreviniz bir sayfanın header bölümünü yapmak. İstenen tasarım burada.
+linklerini eklemeni
+alt metinlerini setAttribute ile eklemeni
+her image'a border-md classını classList 'in add metodu ile eklemeni istiyor.
+İpucu: for döngüsü yapabilirsin
+İpucu: querySelectorAll ile image'lara ulaşabilirsin.
+Dikkat
 
-Arkadaşın kendi üzerine düşen tarafı yaptı. Senin tek yapman gereken index.js dosyasındaki siteContent objesi içindeki bilgileri doğru elementlere aktarmak.
-
-İpucu: Logoyu düzenlemek için getElementById, sayfa başlığını düzenlemek için getElementsByTagName kullan. Linkler için metod seçmekte özgürsün.
-İpucu: getElementById bir element dönerken, getElementsByTagName array benzeri bir collection dönüyor. Array'lerin de i. elemanına index'i ile erişebilirsin: Örneğin array[i].
+Sadece index.js'de kod yaz.
+css dosyasının linkinde sorun var! Önce onu düzeltmelisin.
