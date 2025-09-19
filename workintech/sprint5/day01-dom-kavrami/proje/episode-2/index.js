@@ -45,4 +45,15 @@ const images = [
 const element = document.getElementsByTagName("link");
 element[1].href = "./index.css";
 
-const imgs = document.querySelectorAll(".img");
+const imgs = document.querySelectorAll(".gallery-content img");
+
+// imgs.forEach((item, index) => {
+//   item.setAttribute("src", images[index].image);
+//   item.setAttribute("alt", images[index].alt_text);
+// });
+
+for (let i = 0; i < imgs.length; i++) {
+  imgs[i].setAttribute("src", images[i].image);
+  imgs[i].setAttribute("alt", images[i].alt_text);
+  imgs[i].classList.add("border-md");
+}
